@@ -23,7 +23,6 @@ export class AppController {
     // Note: You can choose to redirect only if certain conditions are met
     return res.redirect('https://conecta-report-bucket.s3.amazonaws.com/1.0.0/');
 
-    // Alternatively, you can use the Redirect decorator
-    // @Redirect('https://example.com', 301)
+   
   }
 }
